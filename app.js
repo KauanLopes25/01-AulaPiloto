@@ -33,7 +33,7 @@ var entradaDeDados = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 })
-// Ativação da interface de leitura do console
+// Ativação da interface de leitura do console por meio do metodo question
 entradaDeDados.question('Digite seu nome: ', function(nome){
     var nomeUsuario = nome
 
